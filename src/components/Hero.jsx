@@ -1,11 +1,12 @@
 import React from 'react'
 import { ImPlus } from "react-icons/im";
-// import TempHeroSvg from '../svg-components/okan.svg';
-import { ReactComponent as MySVG } from '../svg-components/okan.svg';
+import TempHeroSvg from '../svg-components/TempHeroSvg';
+
 const INTRO_ITEMS = [
   'Addicted to Coffee',
+  'Loves Playing Videogames',
   'Loves to Listen to Music',
-  'A little bit crazy'
+  'Based in the Philippines'
 ]
 
 const introDivLineMargin = 'w-[2px] sm:w-[2.5px] ml-[5px] sm:ml-[6px] bg-secondary'
@@ -18,9 +19,9 @@ const Hero = () => {
           <div className='flex flex-col h-full w-full justify-center items-start'>
             {/* Start of Hero Content */}
             <div id='hero-content' className='flex flex-col justify-center'>
-              <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-3 sm:mb-5'>Okan Ulu</h1>
-              <h4 className='text-base sm:text-lg md:text-xl lg:text-2xl mb-4'> FullStack Developer / Computer Engineer</h4>
-              {/* <p className='paragraph mb-5'>I design and create websites using React.</p> */}
+              <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-3 sm:mb-5'>Hey, I'm Alan.</h1>
+              <h4 className='text-base sm:text-lg md:text-xl lg:text-2xl mb-4'> Web-Developer / Computer Engineer</h4>
+              <p className='paragraph mb-5'>I design and create websites using React.</p>
               {/* START OF SHORT INTRO */}
               <div className={`h-6 sm:h-8 ${introDivLineMargin}`} />
               <ul className='flex flex-col'>
@@ -50,7 +51,7 @@ const Hero = () => {
             {/* End of Hero Content */}
           </div>
           <div>
-            <MySVG />
+            <TempHeroSvg />
           </div>
         </div>
       </div>

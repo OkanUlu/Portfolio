@@ -51,7 +51,7 @@ const PrivacyPolicyModal = ({ showPrivacyModal, setShowPrivacyModal }) => {
             </section>
             <section className={privacySectionStyle}>
               <h3 className={privacyHeaderStyle}>Accessing or Updating Your Information</h3>
-              <p className={privacyParagraphStyle}>You have the right to access or update your personal information provided through the contact form. If you wish to access or modify this information, please contact us at <a href='mailto:contact@okanulu.com' className='text-accent hover:underline'>contact@okanulu.com</a>.</p>
+              <p className={privacyParagraphStyle}>You have the right to access or update your personal information provided through the contact form. If you wish to access or modify this information, please contact us at <a href='mailto:alanjbacay@gmail.com' className='text-accent hover:underline'>alanjbacay@gmail.com</a>.</p>
             </section>
             <section className={privacySectionStyle}>
               <h3 className={privacyHeaderStyle}>Updates to This Privacy Policy</h3>
@@ -59,7 +59,7 @@ const PrivacyPolicyModal = ({ showPrivacyModal, setShowPrivacyModal }) => {
             </section>
             <section className={privacySectionStyle}>
               <h3 className={privacyHeaderStyle}>Contact Information</h3>
-              <p className={privacyParagraphStyle}>If you have any questions or concerns regarding this Privacy Policy, please contact us at <a href='mailto:contact@okanulu.com' className='text-accent hover:underline'>contact@okanulu.com</a>.</p>
+              <p className={privacyParagraphStyle}>If you have any questions or concerns regarding this Privacy Policy, please contact us at <a href='mailto:alanjbacay@gmail.com' className='text-accent hover:underline'>alanjbacay@gmail.com</a>.</p>
             </section>
           </div>
           <div id='privacy-buttons-container' className='flex flex-row justify-end pt-5 pr-5 border-t border-gray-300'>

@@ -1,20 +1,9 @@
-import React from 'react';
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import EmailForm from './EmailForm';
-
-const SocialLink = ({ href, label, icon }) => (
-  <a
-    href={href}
-    target='_blank'
-    rel='noreferrer'
-    aria-label={label}
-    className='hover:text-blue-600 transition-colors duration-300 social-icon'
-  >
-    {icon}
-  </a>
-);
+import React from 'react'
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
+import EmailForm from './EmailForm'
 
 const Contacts = () => {
+
   return (
     <div className='w-full py-14 sm:py-20'>
       <div className='w-full max-w-[1200px] mx-auto px-4'>
@@ -25,26 +14,32 @@ const Contacts = () => {
             <div className='mb-4'>
               <h4 className='text-base sm:text-lg md:text-xl font-bold mb-2 text-gray-400'>Socials</h4>
               <div className='flex flex-row items-center text-2xl md:text-3xl gap-2 text-primary'>
-                <SocialLink
-                  href='https://www.linkedin.com/in/okan-ulu/'
-                  label='LinkedIn'
-                  icon={<FaLinkedin />}
-                />
-                <SocialLink
-                  href='https://github.com/OkanUlu'
-                  label='GitHub'
-                  icon={<FaGithubSquare />}
-                />
+                <a
+                  href='https://www.linkedin.com/in/alan-neale-bacay-ii-60aa48258/'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='hover:text-blue-600 transition-colors duration-300'>
+                    <FaLinkedin />
+                </a>
+                <a
+                  href='https://github.com/alanbacay02'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='hover:text-blue-600 transition-colors duration-300'>
+                    <FaGithubSquare />
+                </a>
               </div>
             </div>
             <div>
               <h4 className='text-base sm:text-lg md:text-xl font-bold mb-1 text-gray-400'>Email</h4>
               <div className='flex flex-row items-center text-sm sm:text-base md:text-lg gap-2 font-medium text-blue-500'>
                 <a
-                  href='mailto:contact@okanulu.com'
+                  href='mailto:alanjbacay@gmail.com'
+                  target='_blank'
+                  rel='noreferrer'
                   className='hover:text-blue-600 transition-colors duration-300'
                 >
-                  contact@okanulu.com
+                  alanjbacay@gmail.com
                 </a>
               </div>
             </div>
@@ -61,7 +56,7 @@ const Contacts = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contacts;
+export default Contacts
