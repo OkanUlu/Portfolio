@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa6";
 import { LuMoon, LuSunMoon } from "react-icons/lu";
+import { ImTux } from "react-icons/im";
 import { RxHamburgerMenu } from "react-icons/rx";
 import PopoutMenu from './PopoutMenu';
 import { useTheme } from '../ThemeContext';
@@ -9,17 +10,18 @@ import { CatCodeLogoSvg } from '../svg-components/IconSVG';
 
 const NAVBAR_ITEMS = [
   {
-    title: 'About',
-    href: '#about'
-  },
-  {
     title: 'Skills',
     href: '/#'
   },
   {
-    title: 'Projects',
-    href: '#projects'
+    title: 'About',
+    href: '#about'
   },
+
+  // {
+  //   title: 'Projects',
+  //   href: '#projects'
+  // },
   {
     title: 'Contact',
     href: '#contact'
@@ -73,7 +75,7 @@ const Navbar = () => {
           <a id='navbar-logo'
            href='/#'
            className='dark:fill-darkText w-6 md:w-7 h-auto hover:cursor-pointer hover:fill-primary dark:hover:fill-darkPrimary transition-colors duration-300 z-50'>
-            <CatCodeLogoSvg />
+            <ImTux />
           </a>
 
           {/* Navbar List items on Medium and Larger devices */}

@@ -1,15 +1,38 @@
-import React, { useState } from 'react'
-import PrivacyPolicyModal from './PrivacyPolicyModal'
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
+import PrivacyPolicyModal from './PrivacyPolicyModal';
 
-const formLabelStyle = 'text-sm font-medium px-2 mb-2 text-gray-400 dark:text-gray-300'
-const inputFieldStyle = 'text-sm border border-secondary dark:border-none rounded-md bg-background dark:bg-darkSecondary py-1 px-2 text-sm sm:text-base text-text dark:text-darkText focus:outline-none focus:shadow-xl'
+const formLabelStyle = 'text-sm font-medium px-2 mb-2 text-gray-400 dark:text-gray-300';
+const inputFieldStyle = 'text-sm border border-secondary dark:border-none rounded-md bg-background dark:bg-darkSecondary py-1 px-2 text-sm sm:text-base text-text dark:text-darkText focus:outline-none focus:shadow-xl';
 
 const EmailForm = () => {
-  const [showPrivacyModal, setShowPrivacyModal] = useState(false)
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
+  const nameFieldRef = useRef(null);
+  const emailFieldRef = useRef(null);
+  const messageFieldRef = useRef(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const formData = {
+      from_name: nameFieldRef.current.value,
+      reply_to: emailFieldRef.current.value,
+      message: messageFieldRef.current.value,
+    };
+
+    emailjs.send('okanulu048yandex', 'template_zl1phc9', formData, 'XRHUyXgtRbj15SWYo')
+      .then((result) => {
+        console.log(result.text);
+        // Başarı durumunda işlemleri buraya ekleyin
+      }, (error) => {
+        console.log(error.text);
+        // Hata durumunda işlemleri buraya ekleyin
+      });
+  };
 
   return (
     <div className='w-full max-w-[400px] md:max-w-[550px]'>
-      <form className='flex flex-col justify-center'>
+      <form className='flex flex-col justify-center' onSubmit={sendEmail}>
         {/* NAME FIELD */}
         <div className='flex flex-col mb-4'>
           <label
@@ -18,6 +41,7 @@ const EmailForm = () => {
               Name (Optional)
           </label>
           <input
+            ref={nameFieldRef}
             id='name_field'
             type='text'
             placeholder='Your name here'
@@ -32,6 +56,7 @@ const EmailForm = () => {
               Email
           </label>
           <input
+            ref={emailFieldRef}
             id='email_field'
             type='email'
             placeholder='Your email here'
@@ -43,6 +68,7 @@ const EmailForm = () => {
         <div className='flex flex-col mb-5'>
           <label htmlFor='message_field' className={formLabelStyle}>Message</label>
           <textarea
+            ref={messageFieldRef}
             name='message_field'
             rows={10}
             placeholder='Enter message here...'
@@ -67,16 +93,14 @@ const EmailForm = () => {
           <input
             id='submit_button'
             type='submit'
-            // className='font-medium text-lg text-white rounded-lg py-2 px-5 bg-primary hover:cursor-pointer hover:bg-blue-600 transition-colors duration-300'
             className='font-medium text-sm button-style bg-blue-200 dark:bg-gray-600 text-gray-400 dark:text-gray-500'
             value='Send Email'
-            disabled
           />
         </div>
       </form>
-      { showPrivacyModal && <PrivacyPolicyModal showPrivacyModal={showPrivacyModal} setShowPrivacyModal={setShowPrivacyModal} />}
+      {showPrivacyModal && <PrivacyPolicyModal showPrivacyModal={showPrivacyModal} setShowPrivacyModal={setShowPrivacyModal} />}
     </div>
-  )
-}
+  );
+};
 
-export default EmailForm
+export default EmailForm;

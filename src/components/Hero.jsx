@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCheckCircle } from "react-icons/fa";
-import { ImPlus } from "react-icons/im";
-import TempHeroSvg from '../svg-components/TempHeroSvg';
+import { ImPlus,ImCheckmark2 } from "react-icons/im";
+import { ReactComponent as TempHeroSvg } from '../svg-components/440.svg';
 import pdf from '../pdf-assets/OkanUlu.pdf'
 
 const INTRO_ITEMS = [
@@ -23,7 +23,7 @@ const Hero = () => {
             <div id='hero-content' className='flex flex-col justify-center'>
               <div className='bg-gray-200 dark:bg-darkSecondary flex flex-row gap-1 items-center rounded-full font-medium text-green-700 dark:text-green-500 w-fit text-xs mb-2 px-2 py-0.5'>
                 <FaCheckCircle />
-                <p>Open to Remote Work</p>
+                <p>Open to Work</p>
               </div>
               <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-2'>Hey, I'm Okan.</h1>
               <h4 className='text-base md:text-lg mb-3'> Web-Developer / Computer Engineer</h4>
@@ -35,7 +35,7 @@ const Hero = () => {
                   return (
                     <>
                       <li className='flex flex-row items-center gap-4 ml-0 mt-1 mb-1'>
-                        <p className='text-sm dark:text-darkText'><ImPlus /></p>
+                        <p className='text-sm dark:text-darkText'><ImCheckmark2 /></p>
                         <p className='font-medium text-sm'>{item}</p>
                       </li>
                       {index !== INTRO_ITEMS.length - 1 ? <div className={`h-4 ${introDivLineMargin}`} /> : ''}

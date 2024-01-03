@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  portfolio_okanulu:
+    build: .
+    image: portfolio:v0.1.0
+    container_name: portfolio_okanulu
+    restart: always
+    ports:
+      - "80:80"
+    labels:
+      project: portfolio
+      version: v0.1.0
+      type: frontend
+    volumes:
+      - ./:/app
+    networks:
+      - portfolio
+      
+networks:
+  portfolio:
+    driver: bridge
