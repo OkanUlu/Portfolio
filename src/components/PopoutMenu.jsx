@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { FaExternalLinkAlt, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { IoCloseOutline } from "react-icons/io5";
-import pdf from '../pdf-assets/Bacay_II_Alan_Neale_Resume.pdf'
+import pdf from '../pdf-assets/OkanUlu.pdf'
 
 const MENU_LIST_ITEMS = [
   {

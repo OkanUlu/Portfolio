@@ -16,7 +16,7 @@ const Footer = () => {
               <div className='h-auto w-6 fill-darkText'>
                 <CatCodeLogoSvg />
               </div>
-              <h2 className='font-bold text-lg'>alanbacay</h2>
+              <h2 className='font-bold text-lg'>okanulu</h2>
             </a>
           </div>
           {/* Contact Info */}
@@ -48,7 +48,7 @@ const Footer = () => {
           <div className='col-span-full flex flex-col items-end mt-5'>
             <div className='w-full h-[0.5px] bg-gray-600' />
             <div className='w-fit flex flex-row gap-2 text-xs mt-1 text-gray-400'>
-              <p>©alanbacay</p>
+              <p>©okanulu</p>
               <p>•</p>
               <button
                 onClick={() => {setShowPrivacyModal(!showPrivacyModal)}} className='underline hover:text-darkText'

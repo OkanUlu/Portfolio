@@ -12,7 +12,7 @@ const PROJECT_CARDS = [
     technologies: 'React, Tailwindcss, Framer Motion, Embla Carousel',
     imgSrc: OrionImg,
     imgAlt: 'Orion_Website',
-    pageLink: 'https://alanbacay02.github.io/rocket/',
+    pageLink: 'https://okanulu.github.io/rocket/',
     githubLink: 'https://github.com/OkanUlu/rocket'
   },
   {
@@ -21,7 +21,7 @@ const PROJECT_CARDS = [
     technologies: 'React, Tailwindcss, SlickJS',
     imgSrc: HighLanderImg,
     imgAlt: 'Highlander_Website',
-    pageLink: 'https://alanbacay02.github.io/mock-travel-website/',
+    pageLink: 'https://okanulu.github.io/mock-travel-website/',
     githubLink: 'https://github.com/OkanUlu/mock-travel-website'
   },
 ]

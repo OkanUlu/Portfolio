@@ -23,75 +23,75 @@ const PROJECT_CARD_INFO = [
   {
     projectTitle: 'Pomodoro Timer',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/25-5-clock/',
+    projectDeployLink: 'https://okanulu.github.io/25-5-clock/',
     projectImg: carouselProjectImages['pomodoroTimer.png']
   },
   {
     projectTitle: 'Drum Machine',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/drum-machine/',
+    projectDeployLink: 'https://okanulu.github.io/drum-machine/',
     projectImg: carouselProjectImages['drumMachine.png']
   },
   {
     projectTitle: 'Mock Data Website',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/mock-data-website/',
+    projectDeployLink: 'https://okanulu.github.io/mock-data-website/',
     projectImg: carouselProjectImages['reactMockDataWebsite.png']
   },
   {
     projectTitle: 'The Bean Express',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/fcc-web-project-4/',
+    projectDeployLink: 'https://okanulu.github.io/fcc-web-project-4/',
     projectImg: carouselProjectImages['theBeanExpress.png']
   },
   {
     projectTitle: 'First HTML Portfolio',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/fcc-alan-portfolio/',
+    projectDeployLink: 'https://okanulu.github.io/fcc-alan-portfolio/',
     projectImg: carouselProjectImages['firstPortfolio.png']
   },
   {
     projectTitle: 'Quote Generator',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/random-quote-machine/',
+    projectDeployLink: 'https://okanulu.github.io/random-quote-machine/',
     projectImg: carouselProjectImages['quoteGenerator.png']
   }
   ,
   {
     projectTitle: 'Famous Person',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/fcc-web-project-2/',
+    projectDeployLink: 'https://okanulu.github.io/fcc-web-project-2/',
     projectImg: carouselProjectImages['famousPerson.png']
   }
   ,
   {
     projectTitle: 'Markdown Previewer',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/markdown-previewer/',
+    projectDeployLink: 'https://okanulu.github.io/markdown-previewer/',
     projectImg: carouselProjectImages['markdownPreviewer.png']
   },
   {
     projectTitle: 'React Calculator',
     languageIcons: [<ReactSvgIcon />, <JavaScriptSvgIcon />, <TailwindSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/javascript-calculator/',
+    projectDeployLink: 'https://okanulu.github.io/javascript-calculator/',
     projectImg: carouselProjectImages['reactCalculator.png']
   },
   {
     projectTitle: 'University Landing Page',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />, <BoostrapSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/mainwebpage/',
+    projectDeployLink: 'https://okanulu.github.io/mainwebpage/',
     projectImg: carouselProjectImages['bootstrapUniPage.png']
   },
   {
     projectTitle: 'Survey Form',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/fcc-web-project-1/',
+    projectDeployLink: 'https://okanulu.github.io/fcc-web-project-1/',
     projectImg: carouselProjectImages['htmlSurvey.png']
   },
   {
     projectTitle: 'Documentation Page',
     languageIcons: [<HtmlSvgIcon />, <CssSvgIcon />],
-    projectDeployLink: 'https://alanbacay02.github.io/fcc-web-project-3/',
+    projectDeployLink: 'https://okanulu.github.io/fcc-web-project-3/',
     projectImg: carouselProjectImages['htmlDocumentation.png']
   }
 ]

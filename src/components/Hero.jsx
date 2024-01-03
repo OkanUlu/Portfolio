@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCheckCircle } from "react-icons/fa";
 import { ImPlus } from "react-icons/im";
 import TempHeroSvg from '../svg-components/TempHeroSvg';
-import pdf from '../pdf-assets/Bacay_II_Alan_Neale_Resume.pdf'
+import pdf from '../pdf-assets/OkanUlu.pdf'
 
 const INTRO_ITEMS = [
   'FullStack Developer',

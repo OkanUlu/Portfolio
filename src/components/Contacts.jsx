@@ -59,8 +59,6 @@ const Contacts = () => {
                 <p className='flex flex-row items-center text-[0.700rem] leading-normal text-zinc-500/80 dark:text-gray-200'>
                   Available on Whatsapp
                   <span className='pl-0.5 mr-1'><FaWhatsapp /></span>
-                  and Viber
-                  <span className='px-0.5'><FaViber /></span>
                 </p>
               </div>
             </div>
