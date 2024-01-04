@@ -9,7 +9,7 @@ const PARAGRAPH_CONTENT = [
   'I am open to exciting positions - let\'s connect if you see a potential fit!'
 ];
 
-const USED_SKILLS = ['React', 'Linux', 'Docker', 'Kubernetes', 'MongoDB', 'PostgreSQL', 'Shell Script', 'SCI-Kit Learn', 'JavaScript', 'Python'];
+const USED_SKILLS = ['React', 'Linux', 'Docker', 'Kubernetes', 'MongoDB', 'PostgreSQL', 'Shell Script', 'NginX', 'SCI-Kit Learn', 'JavaScript', 'Python', 'CPanel/WHM'];
 const LEARNED_SKILLS = ['Redux', 'Tensorflow', 'Keras'];
 
 const About = () => {

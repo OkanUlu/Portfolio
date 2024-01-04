@@ -73,7 +73,7 @@ const PopoutMenu = ({ mobileMenu, setMobileMenu }) => {
             <h3 className='text-base font-bold mb-2 text-gray-400'>Social Media</h3>
             <div className='flex flex-row items-center gap-2 ml-1 text-2xl text-primary dark:text-darkPrimary'>
               <a
-                href='https://www.linkedin.com/in/alan-neale-bacay-ii-60aa48258/'
+                href='https://www.linkedin.com/in/okan-ulu/'
                 target='_blank'
                 rel='noreferrer'
                 className='hover:text-blue-600 transition-colors duration-300'>
