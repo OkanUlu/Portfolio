@@ -25,7 +25,7 @@ const PrivacyPolicyModal = ({ showPrivacyModal, setShowPrivacyModal }) => {
           <h1 className='text-lg sm:text-xl font-medium py-5'>Privacy Policy</h1>
           <div id='privacy-section-container' className='flex flex-col overflow-y-scroll p-2 border-t border-gray-300'>
             <section className={privacySectionStyle}>
-              <p className={privacyParagraphStyle}>This Privacy Policy outlines how we collect, use, and protect your information when you interact with Alan Bacay's portfolio website. We are committed to safeguarding your privacy and ensuring the security of any personal information you provide while using this website.</p>
+              <p className={privacyParagraphStyle}>This Privacy Policy outlines how we collect, use, and protect your information when you interact with Okan Ulu's portfolio website. We are committed to safeguarding your privacy and ensuring the security of any personal information you provide while using this website.</p>
             </section>
             <section className={privacySectionStyle}>
               <h3 className={privacyHeaderStyle}>Information we collect</h3>

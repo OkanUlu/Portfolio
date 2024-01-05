@@ -22,8 +22,8 @@ const Hero = () => {
             {/* Start of Hero Content */}
             <div id='hero-content' className='flex flex-col justify-center'>
               <div className='bg-gray-200 dark:bg-darkSecondary flex flex-row gap-1 items-center rounded-full font-medium text-green-700 dark:text-green-500 w-fit text-xs mb-2 px-2 py-0.5'>
-                <FaCheckCircle />
-                <p>Open to Work</p>
+                {/* <FaCheckCircle /> */}
+                {/* <p>Open to Work</p> */}
               </div>
               <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-2'>Hey, I'm Okan.</h1>
               <h4 className='text-base md:text-lg mb-3'> Web-Developer / Computer Engineer</h4>
